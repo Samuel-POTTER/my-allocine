@@ -1,0 +1,98 @@
+[
+    {
+        "id": 28,
+        "name": "Action & Adventure",
+        "poster": "https://www.themoviedb.org/t/p/original/MGADip4thVSErP34FAAfzFBTZ5.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/wrqUiMXttHE4UBFMhLHlN601MZh.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Animation",
+        "poster": "https://www.themoviedb.org/t/p/original/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/2Sm3asuwKVNTzgm2nF6hp5mwEfh.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Comedy",
+        "poster": "https://www.themoviedb.org/t/p/original/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/l6jEz6DvnjaPnuWnVseSFJlxDoZ.jpg"
+    },
+    {
+        "id": 80,
+        "name": "Crime",
+        "poster": "https://www.themoviedb.org/t/p/original/680klE0dIreQQOyWKFgNnCAJtws.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/g0YNGpmlXsgHfhGnJz3c5uyzZ1B.jpg"
+    },
+    {
+        "id": 99,
+        "name": "Documentary",
+        "poster": "https://www.themoviedb.org/t/p/original/hcQRrVfJ1bACXPHymZTBpyfZBqK.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/eUriUhwfIpw4x825rK1hBRtyInW.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Drama",
+        "poster": "https://www.themoviedb.org/t/p/original/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/hI5h8o3bbZlZwnySEs6rL7pXH32.jpg"
+    },
+    {
+        "id": 10751,
+        "name": "Family",
+        "poster": "https://www.themoviedb.org/t/p/original/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/ysaA0BInz4071p3LKqAQnWKZCsK.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Fantasy & Sci-Fi",
+        "poster": "https://www.themoviedb.org/t/p/original/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/oWxe3Lk7a7g8XclJeV40AAV1Fg9.jpg"
+    },
+{
+        "id": 36,
+        "name": "History",
+        "poster": "https://www.themoviedb.org/t/p/original/AmJLuHjxPdIJO6vmymeWADG6jK5.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/1ky9WtVVmqleHEVQ71WE2oCIUqB.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Horror",
+        "poster": "https://www.themoviedb.org/t/p/original/3Ib8vlWTrAKRrTWUrTrZPOMW4jp.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/xHRabofjmMGoIV3mb6xgy4nwOcS.jpg"
+    },
+    {
+        "id": 10402,
+        "name": "Music",
+        "poster": "https://www.themoviedb.org/t/p/original/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg"
+    },
+    {
+        "id": 9648,
+        "name": "Mystery",
+        "poster": "https://www.themoviedb.org/t/p/original/mu8zU2jQfPbGO5bC6RHYrSypxUd.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/AbWmnYB4IxQFk6kP9LA8WrayIg.jpg"
+    },
+    {
+        "id": 10749,
+        "name": "Romance",
+        "poster": "https://www.themoviedb.org/t/p/original/6gg7fvKc1ZxP9yCczweSxIGYp4S.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/5c3vzOs4jqDTHz7I9IWc4k0jxR5.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Thriller",
+        "poster": "https://www.themoviedb.org/t/p/original/okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/sZtBqPjfrlNWNJEQOml7kUz3L3z.jpg"
+    },
+    {
+        "id": 10752,
+        "name": "War",
+        "poster": "https://www.themoviedb.org/t/p/original/ijQHiImv16vNSeZQsmih04kwn0C.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/VT9LQzK4SIvj9W9Y5EoQwnk8aC.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Western",
+        "poster": "https://www.themoviedb.org/t/p/original/su9WzL7lwUZPhjH6eZByAYFx2US.jpg",
+        "backdrop": "https://www.themoviedb.org/t/p/original/lROPTZPTeuiS0C0Pww3xPvtfqT1.jpg"
+    }
+]

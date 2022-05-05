@@ -1,0 +1,14 @@
+FROM arm32v7/node:16.14.0-alpine as builder
+WORKDIR /usr/src/app
+COPY package*.json ./
+COPY . .
+RUN npm install
+RUN npm run build
+
+FROM arm32v7/node:16.14.0-alpine
+
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install --only=production
+COPY --from=builder /usr/src/app/dist ./dist
+CMD node ./dist/index.js

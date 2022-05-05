@@ -1,0 +1,7 @@
+.vscode
+node_modules/
+key.pem
+cert.pem
+dist/
+.nyc_output/
+test.rest

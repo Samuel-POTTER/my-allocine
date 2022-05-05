@@ -1,0 +1,48 @@
+version: '3.3'
+
+services:
+    typescript:
+        tty: true
+        build:
+            context: .
+            dockerfile: Dockerfile.prod
+        env_file:
+            - .env
+        working_dir: /usr/src/app
+        expose:
+            - '${API_PORT}'
+        ports:
+            - '${API_PORT}:${API_PORT}'
+        restart: always
+        depends_on:
+            - database
+        links:
+            - database
+        networks:
+            - api-node-networks
+
+    database:
+        image: 'postgres:13'
+        expose:
+            - '${POSTGRES_PORT}'
+        ports:
+            - '${POSTGRES_PORT}:${POSTGRES_PORT}'
+        environment:
+            TZ: ${API_TZ}
+            LC_ALL: C.UTF-8
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
+        volumes:
+            - data-auth:/var/lib/postgresql/data
+            - ./sql/crypt.sql:/docker-entrypoint-initdb.d/crypt.sql
+        env_file:
+            - .env
+        command: -p ${POSTGRES_PORT}
+        restart: 'always'
+        networks:
+            - api-node-networks
+volumes:
+    data-auth:
+networks:
+    api-node-networks:
